@@ -1,6 +1,8 @@
 public class CommonSubsequence {
     public static void main(String[] args){
-        System.out.println(longestCommonSubstring("almanacs", "albatross"));
+        String in1 = "almanacs", in2 = "albatross";
+        System.out.println("input: " + in1 + ", " + in2);
+        System.out.println("output: " + longestCommonSubstring(in1, in2));
     }
 
     public static int longestCommonSubstring(String text1, String text2){
