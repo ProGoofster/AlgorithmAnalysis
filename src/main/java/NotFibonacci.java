@@ -1,9 +1,9 @@
 public class NotFibonacci {
     public static void main(String[] args){
-        int in = 1;
+        int in = 6;
         System.out.println("input: " + in);
         System.out.println("output: ");
-        NotFibonacciSequence(10);
+        NotFibonacciSequence(in);
     }
 
     //0, 1, 3, 11, 39, 61, 182, 547, 1640, 4921 appears to be wrong
