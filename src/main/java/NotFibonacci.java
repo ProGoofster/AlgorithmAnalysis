@@ -11,6 +11,9 @@ public class NotFibonacci {
 
     //0, 1, 3, 11, 39, 61, 182, 547, 1640, 4921 appears to be wrong
     //this is the function described and it outputs differently starting at the 6th value
+
+
+    //The time complexity of this function is O(n), where n is the number of the term the function gets.
     public static long NotFibonacciSequence(int numOfTerms){
         long b = 0, a = 1, c;
         long result = 0;
@@ -23,6 +26,7 @@ public class NotFibonacci {
         return result;
     }
 
+    //The time complexity of this function is O(n), where 'n' is the position of the term that exceeds 'num'.
     public static int WhereInSequence(int num){
         int i = 0;
         while (NotFibonacciSequence(i)<num){
